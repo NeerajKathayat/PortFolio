@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <div id="contact" className="min-h-screen bg-[#edf1fd] relative pt-10 px-5 pb-20" id="contact">
+        <div id="contact" className="min-h-screen bg-[#edf1fd] relative pt-10 px-5 pb-20" >
             <div className="text-center mb-24 pt-1">
                 <h1 className="text-4xl font-bold mb-4" data-aos="fade-down">Contact Us</h1>
                 <p className="text-lg font-light" data-aos="fade-down">
