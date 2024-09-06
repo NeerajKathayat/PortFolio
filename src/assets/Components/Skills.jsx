@@ -15,7 +15,7 @@ import C from '../../images/C.png'
 import CPP from '../../images/C++.png'
 import Java from '../../images/Java.png'
 import Git from '../../images/Git.png'
-import Github from '../../images/Github.png'
+import Github from '../../images/github.png'
 import VSCode from '../../images/VS Code.png'
 import Postman from '../../images/Postman.png'
 
