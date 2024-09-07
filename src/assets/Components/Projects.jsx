@@ -7,7 +7,7 @@ import ECommerce from '../../images/E-Commerce.png'
 import Tilt from 'react-vanilla-tilt'
 import fylodarkTheme from '../../images/fylodarkTheme.png';
 import NoteApp from '../../images/NoteApp.png'
-
+import FlashCard from '../../images/FlashCard.png'
 
 const Projects = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -68,7 +68,7 @@ const Projects = () => {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem voluptas excepturi adipisci consectetur repudiandae deserunt quae quam quisquam inventore optio aut consequatur temporibus rerum, accusantium aliquam quas officiis nesciunt veritatis corporis nisi? Enim.',
             tags: ['REACT', 'TAILWIND'],
             urlCode:'https://github.com/NeerajKathayat/Web2DesktopLandingPage-TailwindCSS',
-            urlWebsite:'https://app-development-landing-page-next-js.vercel.app/'
+            urlWebsite:'https://web2-desktop-landing-page-tailwind-css.vercel.app/'
         },
 
         {
@@ -78,6 +78,14 @@ const Projects = () => {
             tags: ['HTML','CSS'],
             urlCode:'https://github.com/NeerajKathayat/fylo-dark-theme-landing-Page',
             urlWebsite:'https://fylo-dark-theme-landing-page-azure-two.vercel.app/'
+        },
+        {
+            img: FlashCard,
+            title:'FlashCard Learning Tool',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem voluptas excepturi adipisci consectetur repudiandae deserunt quae quam quisquam inventore optio aut consequatur temporibus rerum, accusantium aliquam quas officiis nesciunt veritatis corporis nisi? Enim.',
+            tags: ['REACT JS','EXPRESS JS','MYSQL'],
+            urlCode:'https://github.com/NeerajKathayat/FlashCard',
+            urlWebsite:'https://flash-card-beige.vercel.app/'
         },
     ];
 
