@@ -37,7 +37,7 @@ const NavBar = () => {
                     <span className='text-sm'>ABOUT</span>
                 </Link>
                 <Link smooth={true} duration={500} offset={-100} spy={true} to="skill" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
-                    <i class="uil uil-user text-2xl"></i>
+                <i class="uil uil-file-alt text-2xl"></i>
                     <span className='text-sm'>SKILLS</span>
                 </Link>
                 <Link smooth={true} duration={500} offset={-100} spy={true} to="Projects" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
@@ -65,7 +65,7 @@ const NavBar = () => {
                         <span className='text-sm'>ABOUT</span>
                     </Link>
                     <Link smooth={true} duration={500} offset={-100} spy={true} to="skill" className={`cursor-pointer flex flex-col items-center gap-1 ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'}`} onClick={handleLinkClick}>
-                        <i class="uil uil-user text-2xl"></i>
+                    <i class="uil uil-file-alt text-2xl"></i>
                         <span className='text-sm'>SKILLS</span>
                     </Link>
                     <Link smooth={true} duration={500} offset={-100} spy={true} to="Projects" className={`cursor-pointer flex flex-col items-center gap-1 ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'}`}  onClick={handleLinkClick}>
