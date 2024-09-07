@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 import Resume from '../../images/Resume.pdf'
 const Hero = () => {
     return (
-        <div id="hero" className='bg-[#edf1fd] h-[90vh] sm:h-screen'>
+        <div id="hero" className='bg-[#edf1fd] h-[90vh] sm:h-screen' >
 
             <div className='flex md:hidden gap-5 text-2xl pt-6 pb-9 px-5'>
                 <a href="https://github.com/NeerajKathayat"> <i class="uil uil-github-alt"></i></a>

@@ -6,7 +6,7 @@ const About = () => {
 
     const [toogleTab, setToogleTab] = useState(0)
     return (
-        <div id="about" className='bg-black min-h-screen  py-20 flex flex-col gap-6'>
+        <div id="about" className='bg-black min-h-screen  py-20 flex flex-col gap-6' >
             <div className='flex flex-col items-center lg:flex-row-reverse justify-between gap-6  px-5  max-w-[1450px] mx-auto'>
 
                 <Tilt style={{ padding: '0' }}>

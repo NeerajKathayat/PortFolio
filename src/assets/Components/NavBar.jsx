@@ -28,23 +28,23 @@ const NavBar = () => {
             <div className='font-semibold tracking-widest text-2xl '>NEERAJ KATHAYAT</div>
 
             <ul className='hidden md:flex gap-5 pr-16 font-medium text-xs '>
-                <Link smooth={true} duration={500} offset={-100} spy={true} to="hero" className='cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline hover:text-black' onClick={handleLinkClick}>
+                <Link smooth={true} duration={500} offset={-100} spy={true} to="hero" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
                     <i class="uil uil-estate text-2xl"></i>
                     <span className='text-sm'>HOME</span>
                 </Link>
-                <Link smooth={true} duration={500} offset={-100} spy={true} to="about" className='cursor-pointer tracking-widest px-3 py-2 flex items-baseline gap-1 hover:text-black' onClick={handleLinkClick}>
+                <Link smooth={true} duration={500} offset={-100} spy={true} to="about" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
                     <i class="uil uil-user text-2xl"></i>
                     <span className='text-sm'>ABOUT</span>
                 </Link>
-                <Link smooth={true} duration={500} offset={-100} spy={true} to="skill" className='cursor-pointer tracking-widest px-3 py-2 flex items-baseline gap-1 hover:text-black' onClick={handleLinkClick}>
+                <Link smooth={true} duration={500} offset={-100} spy={true} to="skill" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
                     <i class="uil uil-user text-2xl"></i>
                     <span className='text-sm'>SKILLS</span>
                 </Link>
-                <Link smooth={true} duration={500} offset={-100} spy={true} to="Projects" className='cursor-pointer tracking-widest px-3 py-2 flex items-baseline gap-1 hover:text-black' onClick={handleLinkClick}>
+                <Link smooth={true} duration={500} offset={-100} spy={true} to="Projects" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
                     <i class="uil uil-scenery text-2xl"></i>
                     <span className='text-sm'>PROJECTS</span>
                 </Link>
-                <Link smooth={true} duration={500} offset={-100} spy={true} to="contact" className='cursor-pointer tracking-widest px-3 py-2 flex items-baseline gap-1 hover:text-black' onClick={handleLinkClick}>
+                <Link smooth={true} duration={500} offset={-100} spy={true} to="contact" className={`cursor-pointer tracking-widest px-3 py-2 flex gap-1 items-baseline ${scrollPosition > 50  ? 'hover:text-gray-400' : 'hover:text-black'} `} onClick={handleLinkClick}>
                     <i class="uil uil-message text-2xl"></i>
                     <span className='text-sm'>CONTACT</span>
                 </Link>
